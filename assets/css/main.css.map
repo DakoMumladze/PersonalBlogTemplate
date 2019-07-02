@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../src/css/main.scss"
+	],
+	"sourcesContent": [
+		"span{\r\n    font-size: 5rem;\r\n    color: rebeccapurple;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,IAAI,CAAA;EACA,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,aAAa,GACvB"
+}
