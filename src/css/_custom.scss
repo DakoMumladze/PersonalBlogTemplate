@@ -1,0 +1,17 @@
+@import "~bootstrap/scss/functions"; 
+@import "~bootstrap/scss/variables";
+@mixin background($imgpath, $position: bottom, $repeat: no-repeat, $size: cover) {
+  background-image: url($imgpath);
+  background-position: $position;
+  background-repeat: $repeat;
+  background-size: $size;
+}
+$theme-colors: (
+  "main": #30c39e
+);
+@function theme-color($key: "main") {
+  @return map-get($theme-colors, $key);
+}
+
+$main-color: theme-color();
+@import "~bootstrap/scss/bootstrap.scss";
