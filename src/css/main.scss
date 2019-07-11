@@ -79,13 +79,80 @@ header {
         outline-color: #fff;
         font-weight: 600;
       }
-      #outline-white {
+      .outline-white {
         border: 0.1rem solid #fff;
+        color:#fff;
         padding: 0.5rem 1.8rem;
         &:hover {
           border: 0.1rem solid #30c39e;
         }
       }
+      .modal-header{
+        border-bottom: none;
+        .modal-image{
+          padding-top: 2rem;
+        }
+      }
+      .modal-content .modal-paragraph{
+        font-size: .9rem;
+        color: #666;
+        letter-spacing: .02rem;
+        line-height: 30px;
+      }
+    }
+  }
+
+}
+.section-title-bl{
+  font-size: 2.7rem;
+  text-align: center;
+  color: #333;
+  font-weight: 600;
+  letter-spacing: .5rem;
+  position: relative;
+  &:after{
+    content: "";
+    display: block;
+    width: 6rem;
+    height: 3px;
+    background: #333;
+    position: absolute;
+    left: 44%;
+    bottom: -.5rem;
+  }
+
+}
+.about-section{
+  .col-title{
+    font-size: 1.2rem;
+    line-height: 35px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #333;
+  }
+  .col-paragh{
+    color:#666;
+    font-size: 1rem;
+    line-height: 30px;
+  }
+  .col-progress{
+    h4{
+      font-size: 1rem;
+      color: #333;
+      font-weight: 600;
+      text-transform: capitalize;
+      letter-spacing: .5px;
+      position: relative;
+    }
+    span{
+      position: absolute;
+      right: 0;
+    }
+    p{
+      color: #666;
+      line-height: 30px;
+      letter-spacing: .5px;
+      font-size: .9rem;
     }
   }
 }
