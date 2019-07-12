@@ -12,6 +12,7 @@ header {
     padding-top: 1.2rem;
   }
   @include background("../../assets/img/bg1.jpg");
+  background-attachment: fixed;
   .navbar-light .navbar-brand {
     color: #fff;
     font-size: 1.8rem;
@@ -120,7 +121,24 @@ header {
     left: 44%;
     bottom: -.5rem;
   }
-
+}
+.section-title-wh{
+  font-size: 2.7rem;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: .5rem;
+  position: relative;
+  &:after{
+    content: "";
+    display: block;
+    width: 6rem;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    left: 45%;
+    bottom: -.5rem;
+  }
 }
 .about-section{
   .col-title{
@@ -154,5 +172,27 @@ header {
       letter-spacing: .5px;
       font-size: .9rem;
     }
+  }
+}
+.services-section{
+  background: #30c39e;
+  color: #fff;
+  h3{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    i.fa{
+      font-size: 2.2rem;
+    }
+  }
+  p{
+    color: #eee;
+    margin: 1em 0;
+    line-height: 2rem;
+    letter-spacing: .5px;
+    font-size: 1rem;
   }
 }
