@@ -196,3 +196,43 @@ header {
     font-size: 1rem;
   }
 }
+.experience-section{
+  .img-container{
+    background-position: center;
+  }
+  .img-container{
+    height: 16rem;
+  }
+  .img1{
+    @include background('../../assets/img/exp1.jpg');
+  }
+  .img2{
+    @include background('../../assets/img/exp2.jpg');
+  }
+  .img3{
+    @include background('../../assets/img/exp3.jpg');
+  }
+  .content-container{
+    background:#f8f9fa;
+    h4{
+      color: #333;
+      font-size: 1.3rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      padding-top: .5rem;
+    }
+    span{
+      font-size: .8rem;
+      background: #30c39e;
+      color: #fff;
+      padding: 5px 10px;
+    }
+    .text-container{
+      line-height: 2rem;
+      letter-spacing: .5px;
+      font-size: 1rem;
+      color: #666;
+      padding: 1rem 2rem;
+    }
+  }
+}
