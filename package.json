@@ -28,7 +28,7 @@
     "url-loader": "^2.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.5",
+    "@babel/core": "^7.5.4",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.6",
     "babel-preset-env": "^1.7.0",
@@ -40,8 +40,8 @@
     "sass-loader": "^7.1.0",
     "sass-webpack-plugin": "^1.0.3",
     "style-loader": "^0.23.1",
-    "webpack": "^4.35.2",
-    "webpack-cli": "^3.3.5",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.7.2"
   }
 }
