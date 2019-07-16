@@ -315,9 +315,43 @@ header {
     }
   }
 }
+.contact-section {
+  .form-group {
+    span {
+      color: #30c39e;
+    }
+    label{
+      color: #333;
+      font-weight: 600;
+    }
+  }
+  .form-control {
+    padding: 1.7rem 1.3rem;
+  }
+  button {
+    color: #222;
+    background: none;
+    border: 2px solid #222;
+    padding: 11px 35px;
+    color: #fff;
+    background: #0a8ea0;
+    border: 2px solid #0a8ea0;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    &:hover {
+      color: #222;
+      background: none;
+      border: 2px solid #222;
+    }
+  }
+}
 footer {
   background: #191919;
-  .nav-link{
+  .nav-link {
     color: #999;
     height: 42px;
     width: 42px;
@@ -329,17 +363,16 @@ footer {
   .copyright {
     color: #999;
     font-size: 1rem;
-
   }
-  .scroll-to-top{
+  .scroll-to-top {
     display: block;
     cursor: pointer;
   }
-  .fa-angle-up{
+  .fa-angle-up {
     color: #fff;
     width: 3rem;
     height: 3rem;
-    border: 1px solid rgba(102, 102, 102, 0.30);
+    border: 1px solid rgba(102, 102, 102, 0.3);
     line-height: 2.5rem;
     margin: 20px 0;
     font-size: 1.5rem;
