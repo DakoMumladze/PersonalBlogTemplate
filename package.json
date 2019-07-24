@@ -25,10 +25,13 @@
     "html-loader": "^0.5.5",
     "jquery": "^3.4.1",
     "popper.js": "^1.15.0",
+    "scroll-into-view": "^1.9.7",
+    "smoothscroll-polyfill": "^0.4.4",
     "url-loader": "^2.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.5",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.6",
     "babel-preset-env": "^1.7.0",

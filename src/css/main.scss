@@ -364,9 +364,9 @@ footer {
     color: #999;
     font-size: 1rem;
   }
-  .scroll-to-top {
-    display: block;
+  .js-scroll-to-top{
     cursor: pointer;
+    transition: all .35s ease;
   }
   .fa-angle-up {
     color: #fff;
